@@ -1,0 +1,1 @@
+Cinema is a web application used to fetch movie details with their IMDB ID , it can fetch the details like poster,actors,ratings,director,writer,imdb rating and many more. It is build ny using HTML,CSS,and JavaScript.
