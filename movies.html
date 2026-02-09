@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sainma</title>
+    <link rel="stylesheet" href="./movies.css">
+    <link rel="shortcut icon" href="./Images/icon.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <h2>Sainma</h2>
+    </nav>
+    <main>
+        <div class="sidebar">
+            <ul class="items">
+                <li><a href="#">Home</a></li>
+                <li><a href="./register.html">Register</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+        <div class="movieSpace">
+            <div class="searchbar">
+                <input type="text" placeholder="Enter the imdbID of required movie here..." id="search">
+                <button type="submit" id="btn">Get</button>
+            </div>
+            <p class="para">Don't know the IMDB ID , <a class="an" href="./movieID.html">Get Here</a></p>
+            <div class="details hidden">
+               <div class="poster">
+                    <img src="" id="pic" alt="Poster unavailable">
+                    <h1 id="title"></h1>
+               </div>
+               <div class="parent1">
+                    <div class="child1">
+                        <p class="headings">Actors : </p>
+                        <p id="actors"></p>
+                        <p class="headings">Genre : </p>
+                        <p id="genre"></p>
+                    </div>
+                    <div class="child2">
+                        <p class="headings">Director : </p>
+                        <p id="director"></p>
+                        <p class="headings">Writer : </p>
+                        <p id="writer"></p>
+                    </div>
+               </div>
+               <div class="parent2">
+                <p class="headings">Plot : </p>
+                <p id="plot"></p>
+               </div>
+               <div class="parent3">
+                <div class="child3">
+                        <p class="headings">Runtime : </p>
+                        <p id="runtime"></p>
+                        <p class="headings">Awards : </p>
+                        <p id="awards"></p>
+                    </div>
+                    <div class="child4">
+                        <p class="headings">IMDB Rating : </p>
+                        <p id="rating"></p>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./movies.js" defer></script>
+
+</body>
+</html>
